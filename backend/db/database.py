@@ -3,7 +3,8 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import declarative_base, sessionmaker
 from dotenv import load_dotenv
 
-load_dotenv()
+ENV_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), ".env")
+load_dotenv(ENV_PATH)
 
 DEFAULT_LOCAL_DB_URL = "postgresql://postgres:postgres@127.0.0.1:5433/recipes_db"
 DEFAULT_DOCKER_DB_URL = "postgresql://postgres:postgres@db:5432/recipes_db"

@@ -7,7 +7,8 @@ from dotenv import load_dotenv
 from schemas.recipe_schema import RecipeExtract
 from utils.logger import logger
 
-load_dotenv()
+ENV_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), ".env")
+load_dotenv(ENV_PATH)
 
 
 def _get_candidate_models() -> list[str]:

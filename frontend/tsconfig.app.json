@@ -8,7 +8,7 @@
     "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./*"]
     },
     "ignoreDeprecations": "6.0",
 
@@ -26,5 +26,5 @@
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"]
+  "include": ["*.ts", "*.tsx", "services/**/*.ts", "lib/**/*.ts", "assets/**/*"]
 }
