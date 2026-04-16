@@ -1,0 +1,4 @@
+Based on the ingredient list, provide 3 practical substitutions for the main or most allergenic ingredients.
+Examples: "Substitute almond milk for whole milk," "Use gluten-free flour instead of all-purpose flour."
+Ensure they align with the recipe's culinary profile.
+Return STRICT JSON array for substitutions.

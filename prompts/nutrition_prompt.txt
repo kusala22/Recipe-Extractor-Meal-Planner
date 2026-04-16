@@ -1,0 +1,4 @@
+Analyze the following recipe ingredients and generate an estimated nutritional profile.
+Provide calories per serving, along with macro breakdown (protein, carbs, fat).
+DO NOT invent exact values if completely unsure, but provide standard reasonable estimates based on common database counterparts.
+Return the result integrated inside the strict JSON structure.
